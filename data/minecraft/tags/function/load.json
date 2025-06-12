@@ -1,0 +1,7 @@
+{
+  "values": [
+    "thewro:constant",
+    "thewro:clock/clock_init",
+    "thewro:timer/timer_init"
+  ]
+}
