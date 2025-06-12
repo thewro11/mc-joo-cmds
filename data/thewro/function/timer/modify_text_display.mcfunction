@@ -1,1 +1,1 @@
-data modify entity @e[type=minecraft:text_display, limit=1, tag=jailTimer] text set value "[{\"score\":{\"name\":\"jailMinutes\",\"objective\":\"timer\"}}, {\"text\": \":\"}, {\"score\":{\"name\":\"jailSeconds\",\"objective\":\"timer\"}}]"
+data modify entity @e[type=minecraft:text_display, limit=1, tag=jailTimer] text set from storage thewro:timer jail
