@@ -9,4 +9,4 @@ function thewro:timer/timer_bar
 $execute if score ZERO constant matches $(minutes) if score ZERO constant matches $(seconds) run function thewro:timer/timer_complete
 $execute if score ZERO constant matches $(minutes) if score ZERO constant matches $(seconds) run return 0
 
-schedule function thewro:timer/timer_tick 1s replace
+schedule function thewro:timer/schedule 1s replace
